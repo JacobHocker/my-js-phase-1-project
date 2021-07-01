@@ -9,3 +9,15 @@ function getTriviaQuestion() {
     .then(res => res.json())
 };
 
+function postTriviaQuestion(body) {
+    return fetch(URL, {
+        method: 'POST',
+        headers: {
+            'Accepts': 'applications/json'
+        },
+        body: JSON.stringify(body)
+    })
+    .then(res => res.json())
+}
+
+postTriviaQuestion({question: "Something"});
