@@ -3,7 +3,7 @@ const URL = 'https://opentdb.com/api.php?amount=1&category=11&difficulty=medium&
 function getTriviaQuestion() {
     return fetch(URL, {
         headers: {
-           'Accepts': 'application/json' 
+            'Accept': 'application/json'
         }
     })
     .then(res => res.json())
@@ -13,7 +13,7 @@ function postTriviaQuestion(body) {
     return fetch(URL, {
         method: 'POST',
         headers: {
-            'Accepts': 'applications/json'
+            'Accept': 'application/json'
         },
         body: JSON.stringify(body)
     })
