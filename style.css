@@ -1,6 +1,13 @@
 h1 {
+    background-image: linear-gradient(red, black);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
 };
+
+/* dont know why these aren't working*/
+p#advice {
+    background-image: linear-gradient(white, blue);
+}
 
 
