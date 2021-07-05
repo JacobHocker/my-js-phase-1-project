@@ -13,3 +13,10 @@ a list on the webpage.
 - Styling
 - a JSON server to persist the saved good advice
 - Users can click a link to show all the saved advice.
+
+
+
+
+## Meeting with Chett
+- Need to know what is looking for in blog.  Video.
+- Need to know if user reloads the page will the save advice be there or not?
