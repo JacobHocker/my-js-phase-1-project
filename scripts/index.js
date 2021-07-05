@@ -1,9 +1,10 @@
-console.log('Welcome to Fun Factual Madness', 'color: red');
+console.log('Welcome to Advice For You!', 'color: red');
 
-const factPTag = document.querySelector('#fact');
+const advicePTag = document.querySelector('#advice');
 
-getFunFacts()
+getAdvice()
 .then(data => {
-    const facts = data.question;
-    factPTag.innerText = facts;
+    const advice = data.advice;
+    advicePTag.innerText = advice;
 });
+

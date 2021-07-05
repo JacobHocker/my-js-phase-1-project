@@ -1,6 +1,7 @@
-const URL = 'https://opentdb.com/api.php?amount=1&category=11&difficulty=medium&type=boolean'
+const URL = 'https://api.adviceslip.com/advice'
 
-function getFacts() {
+
+function getAdvice() {
     return fetch(URL, {
         headers: {
             'Accept': 'application/json'
@@ -9,7 +10,7 @@ function getFacts() {
     .then(res => res.json())
 };
 
-function postFacts(body) {
+function postAdvice(body) {
     return fetch(URL, {
         method: 'POST',
         headers: {
@@ -20,4 +21,4 @@ function postFacts(body) {
     .then(res => res.json())
 }
 
-postFacts({question: "Something"});
+
