@@ -1,4 +1,4 @@
-console.log('Welcome to Trivia!', 'color: red');
+console.log('Welcome to Advice for You!');
 
 const adviceTag = document.querySelector('#advice');
 const refreshButton = document.querySelector('#reload');
