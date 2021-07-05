@@ -16,7 +16,3 @@ a list on the webpage.
 
 
 
-
-## Meeting with Chett
-- Need to know what is looking for in blog.  Video.
-- Need to know if user reloads the page will the save advice be there or not?
