@@ -17,8 +17,8 @@ function postAdvice(body) {
             'Accept': 'application/json'
         },
         body: JSON.stringify(body)
-    })
-    .then(res => res.json())
-}
+    });
+};
+
 
 
