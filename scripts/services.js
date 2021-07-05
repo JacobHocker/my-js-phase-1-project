@@ -1,6 +1,6 @@
 const URL = 'https://opentdb.com/api.php?amount=1&category=11&difficulty=medium&type=boolean'
 
-function getTriviaQuestion() {
+function getFacts() {
     return fetch(URL, {
         headers: {
             'Accept': 'application/json'
@@ -9,7 +9,7 @@ function getTriviaQuestion() {
     .then(res => res.json())
 };
 
-function postTriviaQuestion(body) {
+function postFacts(body) {
     return fetch(URL, {
         method: 'POST',
         headers: {
@@ -20,4 +20,4 @@ function postTriviaQuestion(body) {
     .then(res => res.json())
 }
 
-postTriviaQuestion({question: "Something"});
+postFacts({question: "Something"});

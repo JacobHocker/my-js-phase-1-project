@@ -1,9 +1,9 @@
-console.log('Welcome to Trivia Madness', 'color: red');
+console.log('Welcome to Fun Factual Madness', 'color: red');
 
-const questionPTag = document.querySelector('#question');
+const factPTag = document.querySelector('#fact');
 
-getTriviaQuestion()
+getFunFacts()
 .then(data => {
-    const question = data.question;
-    questionPTag.innerText = question;
+    const facts = data.question;
+    factPTag.innerText = facts;
 });
