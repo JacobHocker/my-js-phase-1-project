@@ -1,9 +1,10 @@
-h1 {
-    background-image: linear-gradient(red, black);
+h1 
+{
+    background-image: linear-gradient(blue, red);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color: whitesmoke;
 }
+
 
 
 
