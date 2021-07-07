@@ -18,10 +18,23 @@ function savedHelpfulAdvice() {
    const helpLi = document.createElement('li')
    helpLi.innerHTML = currentAdvice.slip.advice
    helpfulAdviceContainer.append(helpLi)
+   helpLi.addEventListener('click', event => removeHelpfulAdvice(event))
+}
+
+function removeHelpfulAdvice(event) {
+   event.target.remove()
 }
 
 function savedUnhelpfulAdvice() {
+   unhelpfulAdvice.push(currentAdvice)
+   const unhelpLi = document.createElement('li')
+   unhelpLi.innerHTML = currentAdvice.slip.advice
+   unhelpfulAdviceContainer.append(unhelpLi)
+   unhelpLi.addEventListener('click', event => removeUnhelpfulAdvice(event))
+}
 
+function removeUnhelpfulAdvice(event) {
+   event.target.remove()
 }
 
 
