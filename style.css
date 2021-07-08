@@ -1,5 +1,5 @@
-h1 
-{
+
+h1 {
     background-image: linear-gradient(blue, red);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -34,12 +34,21 @@ h3#unhelp {
 ul#useful {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
 ul#unuseful {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
+
+
+
+
+
+
+
 
 
 
