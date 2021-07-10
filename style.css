@@ -47,7 +47,6 @@ ul#unuseful {
 
 div#button-container {
     font-family: 'Times New Roman', Times, serif;
-    background-color: aquamarine;
     display: flex;
     justify-content: center;
     justify-content:space-evenly;
@@ -126,11 +125,16 @@ div#button-container button#unhelpful:active {
 }
 
 div#list-container1 {
-
+    border: black;
+    border-style: groove;
+    padding: 10px;
+    background-image: linear-gradient(rgb(10, 197, 230), white);
 }
 div#list-container2 {
     border: black;
     border-style: groove;
+    padding: 10px;
+    background-image: linear-gradient(to top, rgb(10, 197, 230), white);
 }
 
 
