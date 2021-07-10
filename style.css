@@ -1,22 +1,23 @@
-
 h1 {
-    background-image: linear-gradient(blue, red);
+    font-size: 60px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient( rgb(10, 197, 230), white);
+    padding: 3.5%;
 }
 
 h2 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     padding: 5%;
+    background-image: linear-gradient(to top, rgb(10, 197, 230), white);
 }
 
 p {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 35px;
 }
-
 
 
 h3#help {
@@ -35,6 +36,7 @@ ul#useful {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
+    
 }
 
 ul#unuseful {
@@ -43,10 +45,93 @@ ul#unuseful {
     cursor: pointer;
 }
 
+div#button-container {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    justify-content:space-evenly;
+}
 
+div#button-container button#reload {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color:#ededed;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#3a8a9e;
+    font-family:Times New Roman;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+}
+div#button-container button#reload:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+div#button-container button#reload:active {
+    position: relative;
+    top: 1px;
+}
 
+div#button-container button#helpful {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color:#ededed;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#3a8a9e;
+    font-family:Times New Roman;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+}
+div#button-container button#helpful:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+div#button-container button#helpful:active {
+    position: relative;
+    top: 1px;
+}
 
+div#button-container button#unhelpful {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color:#ededed;
+    border-radius:15px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    color:#3a8a9e;
+    font-family:Times New Roman;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+}
+div#button-container button#unhelpful:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+div#button-container button#unhelpful:active {
+    position: relative;
+    top: 1px;
+}
 
+div#list-container1 {
+
+}
+div#list-container2 {
+    border: black;
+    border-style: groove;
+}
 
 
 
