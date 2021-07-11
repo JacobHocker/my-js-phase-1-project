@@ -7,9 +7,11 @@ const unhelpfulButton = document.querySelector('#unhelpful');
 const helpfulAdviceContainer = document.querySelector('#useful');
 const unhelpfulAdviceContainer = document.querySelector('#unuseful');
 
-let currentAdvice = {}
-const helpfulAdvice = []
-const unhelpfulAdvice = []
+
+let currentAdvice = {};
+const helpfulAdvice = [];
+const unhelpfulAdvice = [];
+
 
 
 
@@ -39,6 +41,7 @@ function removeUnhelpfulAdvice(event) {
 
 
 
+
 refreshButton.addEventListener('click', () => {
    getAdvice()
    .then(data => {
@@ -55,6 +58,7 @@ getAdvice()
    const advice = data.slip.advice 
    adviceTag.innerHTML = advice
 })
+
 
 
 helpfulButton.addEventListener('click', savedHelpfulAdvice)
