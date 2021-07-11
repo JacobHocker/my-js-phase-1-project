@@ -1,16 +1,23 @@
-h1 {
-    font-size: 60px;
+body {
+    background: linear-gradient(to bottom, #2abb8f, white);
+}
+.header {
+    padding: 60px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    background-image: linear-gradient( rgb(10, 197, 230), white);
-    padding: 3.5%;
+    background: #1abc9c;
+    color: white;
 }
 
-h2 {
+div.header h1 {
+    font-size: 70px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    padding: 5%;
-    background-image: linear-gradient(to top, rgb(10, 197, 230), white);
+}
+
+div.header h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
 p {
@@ -53,6 +60,7 @@ div#button-container {
     display: flex;
     justify-content: center;
     justify-content:space-evenly;
+    padding: 30px;
 }
 
 div#button-container button#reload {
@@ -131,13 +139,11 @@ div#list-container1 {
     border: black ridge;
     border-style: groove;
     padding: 8px;
-    background-image: linear-gradient(rgb(10, 197, 230), white);
 }
 div#list-container2 {
     border: black ridge;
     border-style:groove;
     padding: 8px;
-    background-image: linear-gradient(to top, rgb(10, 197, 230), white);
 }
 
 
