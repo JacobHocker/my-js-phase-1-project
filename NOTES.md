@@ -1,8 +1,6 @@
 # Project Proposal
 
-A website that randomly gives insightful pieces of advice.  Ones that the user will see and 
-either be able to say is good advice or terrible advice.  The good advice will be saved to a 
-a list on the webpage.
+A website that randomly gives insightful pieces of advice.  Ones that the user will see and either be able to say is good advice or terrible advice.  The good advice will be saved to a list on the webpage. And also the bad advice will have a seperate list as well.  
 
 ## MVP
 - User will be able to load the page see the first piece of advice.
@@ -11,8 +9,7 @@ a list on the webpage.
 ## Stretch 
 - Users can temporarily save advice according to what they think is good advice or bad advice.
 - Styling
-- a JSON server to persist the saved good advice
-- Users can click a link to show all the saved advice.
+- Users can also remove advice from the lists. 
 
 
 
