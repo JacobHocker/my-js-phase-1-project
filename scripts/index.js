@@ -1,6 +1,6 @@
 console.log('Welcome to Advice for You!');
 
-const adviceTag = document.querySelector('#advice');
+/*const adviceTag = document.querySelector('#advice');*/
 const refreshButton = document.querySelector('#reload');
 const helpfulButton = document.querySelector('#helpful');
 const unhelpfulButton = document.querySelector('#unhelpful');
@@ -42,22 +42,23 @@ function removeUnhelpfulAdvice(event) {
 
 
 
+
 refreshButton.addEventListener('click', () => {
    getAdvice()
-   .then(data => {
+  /* .then(data => {
       currentAdvice = data
-      const advice = data.slip.advice
+      const advice = data.slip.advice 
       adviceTag.innerHTML = advice
-   })
-})
+   })*/
+});
  
-
 getAdvice()
-.then(data => {
+/*.then(data => {
    currentAdvice = data
    const advice = data.slip.advice 
    adviceTag.innerHTML = advice
-})
+});*/
+
 
 
 
